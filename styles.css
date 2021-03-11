@@ -1,0 +1,42 @@
+.bepulto {
+            width: 60%;
+            top: 50%;
+            position: absolute;
+            left: 40%;
+            overflow: hidden;
+            animation: animate 2.5s linear forwards;
+            color: #f8f8f8; font-family: 'Helvetica Neue', sans-serif; font-size: 45px; letter-spacing: -1px; line-height: 1; text-align: center;
+        }
+        @keyframes animate {
+            0% {
+                width: 0px;
+                height: 0px;
+            }
+            30% {
+                width: 50px;
+                height: 50px;
+            }
+            60% {
+                width: 100px;
+                height: 140px;
+            }
+            100% {
+                width: 250px;
+                height: 250px;
+            }
+        }
+        html,body{
+      margin:0;
+      height:100%;
+      overflow:hidden;
+  }
+  img{
+      min-height:100%;
+      min-width:100%;
+      height:auto;
+      width:auto;
+      position:absolute;
+      top:-100%; bottom:-100%;
+      left:-100%; right:-100%;
+      margin:auto;
+  }
