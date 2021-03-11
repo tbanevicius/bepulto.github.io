@@ -1,5 +1,16 @@
+body {
+  background-color:black;
+}
+.stay_tuned {
+            width: 20%;
+            top: 80%;
+            position: absolute;
+            left: 70%;
+            overflow: hidden;
+            color: #f8f8f8; font-family: 'Helvetica Neue', sans-serif; font-size: 30px; letter-spacing: -1px; line-height: 1; text-align: center;
+        }
 .bepulto {
-            width: 60%;
+            width: 100%;
             top: 50%;
             position: absolute;
             left: 40%;
