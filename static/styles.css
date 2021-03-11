@@ -1,6 +1,29 @@
 body {
   background-color:black;
 }
+
+.butt_div {
+    top: 60%;
+    position: absolute;
+    left: 45%;
+    display:inline-block;
+    color:#444;
+    border:1px solid #CCC;
+    background:white;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+    cursor:pointer;
+    vertical-align:middle;
+    max-width: 100px;
+    width:100%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+.butt_div:active {
+    color:white;
+    box-shadow: 0 0 5px -1px rgba(0,0,0,0.6);
+}
 .stay_tuned {
             width: 20%;
             top: 80%;
@@ -11,7 +34,7 @@ body {
         }
 .bepulto {
             width: 100%;
-            top: 50%;
+            top: 40%;
             position: absolute;
             left: 40%;
             overflow: hidden;
